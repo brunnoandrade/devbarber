@@ -44,8 +44,6 @@ const SeeProfileButtonText = styled.Text`
 
 
 export default ({data}) => {
-
-    //instanciar meu hook
     const navigation = useNavigation();
 
     const handleClick = () => {
